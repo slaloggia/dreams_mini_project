@@ -1,0 +1,5 @@
+<h1><%= @dream.title %></h1>
+<%= @dream.dream_date %><br>
+<%= @dream.summary %><br>
+<%= button_to "Edit this dream", edit_dream_path, method: :get %> 
+<%= button_to "Delete dream", @dream, :method => :delete %>
